@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply bg-black
+}
+
+body {
+    @apply  text-dark-950 font-medium w-screen min-h-screen bg-[url('/screens/newbg.webp')] bg-center bg-cover bg-no-repeat bg-fixed;
+
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
