@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "generate-sitemap": "node generate-sitemap.js",
     "generate-robots": "NODE_ENV=$NODE_ENV node generateRobotsTxt.js",
-    "build": "npm run generate-sitemap && vite build",
+    "build": "npm run generate-sitemap && npm run generate-robots && vite build",
     "dev": "npm run generate-sitemap && npm run generate-robots && vite"
   },
   "dependencies": {
